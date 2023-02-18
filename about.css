@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:#1f242d;
+}
+header{
+    position: fixed;
+}
+nav{
+    animation: akar 5s ease forwards ;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    
+}
+@keyframes akar{
+    0%{
+        transform: translateX(-100);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+
+li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+   
+}
+.had h1{
+font-size: 40px;
+color: white;
+animation: hader 5s ease ;
+}
+@keyframes hader{
+    0%{
+        transform: translate();
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+li a:hover{
+    color:#0ef ;
+    transition: .3s;
+}
+.activcolor{
+    color: #0ef;
+}
+.contant{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.contant .about{
+    
+    color: white;
+    
+    
+   
+}
+
+.img img{
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 40px;
+    animation: img 3s , lofimg 4s ease-in-out infinite;
+}
+@keyframes lofimg  {
+    0%{
+        transform: translateY(0);
+      
+    }
+    50%{
+        transform: translateY(10px);
+      
+    }
+    100%{
+        transform: translateY(0);
+        
+    }
+    }
+@keyframes img{
+    0%{
+        transform:scale(0);
+        opacity: 0;
+       
+    }
+    100%{
+        transform: scale(1);
+       opacity: 1;
+    }
+    }
+.about h2{
+    padding: 5px 8px;
+   display: inline;
+    font-size: 20px;
+    background-color: #0ef;
+    color: #000000;
+    border-radius: 10px;
+}
+.about h1{
+    display: inline;
+    font-size: 28px;
+    margin-left: 20px;
+    line-height: 35px;
+   
+}
+
+
+.name{
+    margin-top: 60px;
+    animation: lader 1s ease ;
+}
+.name h1{
+    margin-left: 68px;
+   
+}
+@keyframes lader{
+    0%{
+        transform: translate(-100px);
+       opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+       
+    }
+    }
+.from{
+    margin-top: 30px;
+   animation: aader 1.5s ease ;
+}
+
+@keyframes aader{
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+     
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+     
+    }
+    }
+
+.from h1{
+    margin-left: 70px;
+}
+.eduatio{
+    margin-top: 30px;
+    animation: adder 2s ease ;
+}
+@keyframes adder{
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+       
+    }
+    100%{
+        transform: translateX(0);
+       opacity: 1;
+    }
+    }
+.work{
+    margin-top: 30px;
+    animation:der 2.5s ease ;
+}
+.work h1{
+    margin-left: 63px;
+}
+@keyframes der{
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+       
+    }
+    100%{
+        transform: translateX(0);
+       opacity: 1;
+    }
+    }
+
+.ex{
+    margin-top: 30px;
+    animation: ex 3s ease ;
+}
+.ex h1{
+    margin-left: 10px;
+}
+@keyframes ex{
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+       
+    }
+    100%{
+        transform: translateX(0);
+       opacity: 1;
+    }
+    }
+.hobi{
+    margin-top: 30px;
+    animation: hobi 3.5s ease forwards ;
+}
+.hobi h1{
+    margin-left: 40px;
+}
+@keyframes hobi{
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+       
+    }
+    100%{
+        transform: translateX(0);
+       opacity: 1;
+    }
+    }
+.quality{
+    margin-top: 30px;
+    animation: qa 3.5s ease forwards ;
+}
+.quality h1{
+    margin-left: 50px;
+}
+@keyframes qa{
+    0%{
+        transform: translate(-100px);
+        opacity: 0;
+       
+    }
+    100%{
+        transform: translateX(0);
+       opacity: 1;
+    }
+    }
+.tend {
+    text-align: center;padding: 5px 5px;
+    margin-top: 50px;
+    animation: bu 3.5s ease forwards ;
+}
+.tend h2{
+   
+    text-align: center;
+    font-size: 30px;
+   
+}
+@keyframes bu{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+       
+    }
+    100%{
+        transform: translate(0);
+       opacity: 1;
+    }
+    }
+
+
+@media (max-width:1400px){
+   
+    .img img{
+        margin-top: 50px;
+        width: 350px;
+        border-radius: 40px;
+    }
+    .about h1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1205px){
+   
+    .img img{
+        margin-top: 50px;
+        width: 330px;
+        border-radius: 40px;
+    }
+    .about h1{
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width:1027px){
+   
+    .img img{
+        margin-top: 50px;
+        width: 330px;
+        border-radius: 40px;
+    }
+    .about h1{
+        font-size: 22px;
+    }
+
+    .about h2{
+        font-size: 18px;}
+
+
+
+    .name h1{
+        font-size: 22px;
+        margin-left: 10px;
+    
+    }
+    .from h1{
+        margin-left: 20px;
+    }
+    .eduatio h1{
+        margin-left: 20px;
+    }
+    .hobi h1{
+        margin-left: 20px;
+    }
+    .ex h1{
+        margin-left: 20px;
+    }
+    .work h1{
+        margin-left: 50px;
+    }
+    .quality h1{
+        margin-left: 20px;
+    }
+    .work h1{
+        margin-left: 20px;
+    }
+}
+@media (max-width:980px){
+    .contant{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    align-items: start;
+    }
+    .contant .about{
+        padding-left: 50px;
+    }
+    .about h1{
+        font-size: 28px;
+    }
+    .about h2{
+        font-size: 23px;
+    }
+
+    .img{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+  
+
+    .name h1{
+        margin-left: 68px;
+    }
+   
+    .from h1{
+        margin-left: 80px;
+    }
+    
+    .work h1{
+        margin-left: 70px;
+    }
+   
+    .ex h1{
+        margin-left: 5px;
+    }
+    
+    .hobi h1{
+        margin-left: 40px;
+    }
+    
+    .quality h1{
+        margin-left: 55px;
+    }
+   
+}
+.berger{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: none;
+}
+.line1{
+    background-color: white;
+    width: 40px;
+    height: 4px;
+}
+.line2{
+    background-color: white;
+    width: 40px;
+    height: 4px;
+    margin-top: 5px;
+}
+.line3{
+    background-color: white;
+    width: 40px;
+    height: 4px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:790px){
+    .berger{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+    .reponsiv{
+        font-size: 80px;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .had {
+        height: 50px;width: 10px;
+        padding-left: 5px;
+        
+    }
+    .contant .about{
+        padding-left: 8px;
+    }
+}
+
+
+
+
+
+
+
+
+ @media (max-width:865px){
+    .about h1{
+        font-size: 25px;
+    }
+    .about h2{
+        font-size: 19px;
+    }
+ }
+
+
+
+
+ @media (max-width:740px){
+    .about h1{
+        font-size: 22px;
+    }
+    .about h2{
+        font-size: 15px;
+    }
+    .name{
+        margin-top: 50px;
+    }
+    .name h1{
+        margin-left: 10px;
+    }
+    .from{
+        margin-top: 20px;
+    }
+    .from h1{
+        margin-left: 10px;
+    }
+    .eduatio{
+        margin-top: 20px;
+    }
+    .eduatio h1{
+        margin-left: 10px;
+    }
+    .hobi{
+        margin-top: 20px;
+    }
+    .hobi h1{
+        margin-left: 10px;
+    }
+    .work{
+        margin-top: 20px;
+    }
+    .work h1{
+        margin-left: 10px;
+    }
+    .quality{
+        margin-top: 20px;
+    }
+    .quality h1{
+        margin-left: 10px;
+    }
+    .ex{
+        margin-top: 20px;
+    }
+    .ex h1{
+        margin-left: 10px;
+    }
+ }
+
+
+ @media (max-width:601px){
+    .about h1{
+        font-size: 18px;
+    }
+    .about h2{
+        font-size: 12px;
+    }
+    .img img{
+        width: 300px;
+    }
+    .had h1{
+        font-size: 20px;
+    } 
+    .had {
+        padding-left: 0px;
+    }
+    .line1{
+        width: 30px;
+        height: 3px;
+    }
+    .line2{ width: 30px;
+        height: 3px;}
+    .line3{ width: 30px;
+        height: 3px;}
+}
+
+
+
+@media (max-width:500px){
+    ul a{
+        font-size: 20px;
+    }
+    
+    .about h1{
+font-size: 15px;
+    }
+    .about h2{
+font-size: 10px;
+    }
+.work h1{
+padding-left: 3px;
+}
+.from{
+    margin-top: 10px;
+}
+.eduatio{
+    margin-top: 10px;
+}
+.work{
+    margin-top: 10px;
+}
+.ex{
+    margin-top: 10px;
+}
+.hobi{
+    margin-top: 10px;
+}
+.quality{
+    margin-top: 10px;
+}
+.img img{
+    width: 250px;
+}
+.reponsiv{
+    font-size: 10px;
+    gap: 60px;
+}
+}
+@media (max-width:420px){
+    .about h1{
+        font-size: 15px;
+    }
+    .about h2{
+        font-size: 8px;
+    }
+    .tend h2{
+        font-size: 15px;
+    }
+     .contant .about{
+        padding-left: 4px;
+    }
+    .work h1{
+        margin-left: 0px;
+    }
+    .quality h1{
+        margin-left: 0px;
+    }
+
+}
+
+
+
+
